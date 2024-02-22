@@ -1,0 +1,28 @@
+.contact-form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: yellowgreen; */
+    min-height: 100vh;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    border: 1px solid red;
+    padding: 12px;
+
+}
+form  div{
+    padding: 10px 20px;
+    display: flex;
+    gap: 10px;
+}
+
+form button{
+    padding: 10px 14px;
+    font-size: 20px;
+    cursor: pointer;
+
+}
